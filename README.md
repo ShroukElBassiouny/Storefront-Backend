@@ -25,7 +25,7 @@ JWT_SECRET=secret-token
 ## DataBase:
 start the Postgres server and create DB:
 ##### Note: Database is running on Port ==> 5432
-Use this command to run postgres server:
+- Use this command to run postgres server:
 ```sh
 psql -U postgres
 ```
@@ -42,21 +42,22 @@ create database store_dev;
 ```sh
 dp-migrate up
 ```
-- Add your database configuration setting to your `.env` file## to start server
-## Install Dependencies:
+- Add your database configuration setting to your `.env` file
+## Before start server:
+#### Install Dependencies:
 ```sh
 cd StoreFront-backend
 npm install
 ```
-## to Run migrations:
+#### To Run migrations:
 ```sh
 npm run migration:run
 ```
-## to start server:
+## To start server:
 ```sh
 npm run start
 ```
-## to start test:
+## To start test:
 ```sh
 npm run test
 ```
@@ -72,7 +73,7 @@ npm run Prettier
 ```sh
 npm run lint
 ```
-## to Run Ports:
+## To Run Ports:
 ```sh
 Server will start on port 3000 and the database on port 5432
 ```
