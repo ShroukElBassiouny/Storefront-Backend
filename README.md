@@ -3,10 +3,10 @@ A NodeJS API to allow users to browse an index of all products, see the specific
  
 ## Tools:
 Store Backend API uses several tools to work properly:
-- Postgres
-- Jasmine for testing
 - TypeScript
 - Express node.js web application framework
+- Postgres
+- Jasmine for testing
 ## Enviromental Variables Set up:
 - create a `.env` file in your root folder then copy the content from  `.env.sample and replace the values with your environment configuration / secrets`
 ```sh
