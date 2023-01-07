@@ -2,11 +2,11 @@
 A NodeJS API to allow users to browse an index of all products, see the specifics of a single product, and add products to an order that they can view in a orders page.
  
 ## Tools:
-Store Backend API uses a number of tools to work properly:
+Store Backend API uses several tools to work properly:
 - Postgres
 - Jasmine for testing
 - TypeScript
-- Express 
+- Express node.js web application framework
 ## Enviromental Variables Set up:
 - create a `.env` file in your root folder then copy the content from  `.env.sample and replace the values with your environment configuration / secrets`
 ```sh
