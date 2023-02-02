@@ -40,7 +40,7 @@ create database store_dev;
 ```
 - Next, you need to run the database migrations:
 ```sh
-dp-migrate up
+db-migrate up
 ```
 - Add your database configuration setting to your `.env` file
 ## Before start server:
